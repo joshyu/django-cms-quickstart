@@ -172,3 +172,5 @@ whitenoise==6.6.0
 # The following packages are considered to be unsafe in a requirements file:
 # pip
 # setuptools
+#git+https://github.com/django-cms/djangocms-moderation.git@master
+git+https://github.com/FidelityInternational/djangocms-moderation.git@feature/django-42-compat

@@ -53,6 +53,9 @@ INSTALLED_APPS = [
     # the default publishing implementation - optional, but used in most projects
     'djangocms_versioning',
 
+    # implement version review & publish functionality.
+    'djangocms_moderation',
+
     # the default alias content - optional, but used in most projects
     'djangocms_alias',
     'parler',
@@ -221,3 +224,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
 CMS_CONFIRM_VERSION4 = True
 DJANGOCMS_VERSIONING_ALLOW_DELETING_VERSIONS = True
+DJANGOCMS_VERSIONING_LOCK_VERSIONS = True
+EMAIL_NOTIFICATIONS_FAIL_SILENTLY = True
